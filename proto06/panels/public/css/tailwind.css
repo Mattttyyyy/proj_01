@@ -1,0 +1,28 @@
+@import 'react-responsive-carousel/lib/styles/carousel.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @media print {
+    body * {
+      visibility: hidden;
+    }
+    #printable-area * {
+      visibility: visible;
+    }
+    #printable-area {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+} */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

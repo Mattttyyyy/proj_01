@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "checkJs": false,
+      "jsx": "react-jsx",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "baseUrl": "./src",
+      "paths": {
+        "@/widgets/*": ["widgets/*"],
+        "@/routes": ["routes.tsx"],
+        "@/pages/*": ["pages/*"],
+        "@/data/*": ["data/*"],
+        "@/context": ["context/index.tsx"],
+        "@/types/*": ["types/*"],
+        "@/utils/*": ["utils/*"],
+        "@/store/*": ["store/*"],
+        "@/custom-hooks/*": ["custom-hooks/*"],
+        "@/*": ["./*"]
+
+      }
+    },
+    "include": ["src", "src/typings.d.ts"]
+  }
